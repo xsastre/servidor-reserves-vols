@@ -105,5 +105,3 @@ curl -X POST http://localhost:3000/api/bookings \
   -H "Authorization: Bearer <token>" \
   -d '{"flightId": 1, "passengers": 2}'
 ```
-
-Xavier Sastre 2025
