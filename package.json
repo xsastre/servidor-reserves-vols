@@ -1,0 +1,21 @@
+{
+  "name": "servidor-reserves-vols",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["api", "rest", "jwt", "flights", "bookings"],
+  "author": "",
+  "license": "ISC",
+  "description": "API REST per gestionar reserves de vols amb autenticació JWT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
