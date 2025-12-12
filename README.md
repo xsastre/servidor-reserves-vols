@@ -105,3 +105,7 @@ curl -X POST http://localhost:3000/api/bookings \
   -H "Authorization: Bearer <token>" \
   -d '{"flightId": 1, "passengers": 2}'
 ```
+
+---
+
+Desenvolupat per en Xavier pels mòduls DWEC i DWES de DAW (des. 2025)
